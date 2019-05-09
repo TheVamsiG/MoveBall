@@ -1,14 +1,15 @@
 //
-//  MoveBallTests.swift
-//  MoveBallTests
+//  Unity_IphoneTests.swift
+//  Unity IphoneTests
 //
 //  Created by Vamsi Ghorakavi on 5/8/19.
 //  Copyright © 2019 Vamsi Ghorakavi. All rights reserved.
 //
 
 import XCTest
-@testable import MoveBall
-class MoveBallTests: XCTestCase {
+@testable import Unity_Iphone
+
+class Unity_IphoneTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

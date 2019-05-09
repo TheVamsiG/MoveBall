@@ -17,6 +17,8 @@
 		6903A00622829B3100637919 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6903A00422829B3100637919 /* LaunchScreen.storyboard */; };
 		6903A01122829B3200637919 /* MoveBallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A01022829B3200637919 /* MoveBallTests.swift */; };
 		6903A01C22829B3200637919 /* MoveBallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A01B22829B3200637919 /* MoveBallUITests.swift */; };
+		6903A0382283677F00637919 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6903A0372283677F00637919 /* SpriteKit.framework */; };
+		6903A04C228369C800637919 /* libHauoliTrack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6903A04B228369C800637919 /* libHauoliTrack.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 69039FF122829B2F00637919;
 			remoteInfo = MoveBall;
+		};
+		6903A06E2283791400637919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69039FEA22829B2F00637919 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6903A0532283791000637919;
+			remoteInfo = "Unity Iphone";
+		};
+		6903A0792283791400637919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69039FEA22829B2F00637919 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6903A0532283791000637919;
+			remoteInfo = "Unity Iphone";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -53,6 +69,14 @@
 		6903A01722829B3200637919 /* MoveBallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoveBallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6903A01B22829B3200637919 /* MoveBallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveBallUITests.swift; sourceTree = "<group>"; };
 		6903A01D22829B3200637919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6903A0372283677F00637919 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		6903A04B228369C800637919 /* libHauoliTrack.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHauoliTrack.a; path = "../../../../Downloads/1D_Device-Free_Tracking_SDK/libHauoliTrack.a"; sourceTree = "<group>"; };
+		6903A04D228369D500637919 /* HauoliConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HauoliConst.h; path = ../HauoliConst.h; sourceTree = "<group>"; };
+		6903A04E228369D500637919 /* HauoliTracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HauoliTracker.h; path = ../HauoliTracker.h; sourceTree = "<group>"; };
+		6903A04F22836A2500637919 /* libHauoliTrack.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHauoliTrack.a; path = "../../../../../Downloads/1D_Device-Free_Tracking_SDK/libHauoliTrack.a"; sourceTree = "<group>"; };
+		6903A0542283791000637919 /* Unity Iphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unity Iphone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6903A06D2283791400637919 /* Unity IphoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unity IphoneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6903A0782283791400637919 /* Unity IphoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unity IphoneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +84,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6903A0382283677F00637919 /* SpriteKit.framework in Frameworks */,
+				6903A04C228369C800637919 /* libHauoliTrack.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +103,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6903A0512283791000637919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6903A06A2283791400637919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6903A0752283791400637919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -87,6 +134,7 @@
 				6903A00F22829B3200637919 /* MoveBallTests */,
 				6903A01A22829B3200637919 /* MoveBallUITests */,
 				69039FF322829B2F00637919 /* Products */,
+				6903A02A2282A3BD00637919 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +144,9 @@
 				69039FF222829B2F00637919 /* MoveBall.app */,
 				6903A00C22829B3200637919 /* MoveBallTests.xctest */,
 				6903A01722829B3200637919 /* MoveBallUITests.xctest */,
+				6903A0542283791000637919 /* Unity Iphone.app */,
+				6903A06D2283791400637919 /* Unity IphoneTests.xctest */,
+				6903A0782283791400637919 /* Unity IphoneUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +163,9 @@
 				6903A00222829B3100637919 /* Assets.xcassets */,
 				6903A00422829B3100637919 /* LaunchScreen.storyboard */,
 				6903A00722829B3100637919 /* Info.plist */,
+				6903A04E228369D500637919 /* HauoliTracker.h */,
+				6903A04D228369D500637919 /* HauoliConst.h */,
+				6903A04F22836A2500637919 /* libHauoliTrack.a */,
 			);
 			path = MoveBall;
 			sourceTree = "<group>";
@@ -132,6 +186,15 @@
 				6903A01D22829B3200637919 /* Info.plist */,
 			);
 			path = MoveBallUITests;
+			sourceTree = "<group>";
+		};
+		6903A02A2282A3BD00637919 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6903A04B228369C800637919 /* libHauoliTrack.a */,
+				6903A0372283677F00637919 /* SpriteKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +253,59 @@
 			productReference = 6903A01722829B3200637919 /* MoveBallUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		6903A0532283791000637919 /* Unity Iphone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6903A07F2283791400637919 /* Build configuration list for PBXNativeTarget "Unity Iphone" */;
+			buildPhases = (
+				6903A0502283791000637919 /* Sources */,
+				6903A0512283791000637919 /* Frameworks */,
+				6903A0522283791000637919 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Unity Iphone";
+			productName = "Unity Iphone";
+			productReference = 6903A0542283791000637919 /* Unity Iphone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6903A06C2283791400637919 /* Unity IphoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6903A0822283791400637919 /* Build configuration list for PBXNativeTarget "Unity IphoneTests" */;
+			buildPhases = (
+				6903A0692283791400637919 /* Sources */,
+				6903A06A2283791400637919 /* Frameworks */,
+				6903A06B2283791400637919 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6903A06F2283791400637919 /* PBXTargetDependency */,
+			);
+			name = "Unity IphoneTests";
+			productName = "Unity IphoneTests";
+			productReference = 6903A06D2283791400637919 /* Unity IphoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6903A0772283791400637919 /* Unity IphoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6903A0852283791400637919 /* Build configuration list for PBXNativeTarget "Unity IphoneUITests" */;
+			buildPhases = (
+				6903A0742283791400637919 /* Sources */,
+				6903A0752283791400637919 /* Frameworks */,
+				6903A0762283791400637919 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6903A07A2283791400637919 /* PBXTargetDependency */,
+			);
+			name = "Unity IphoneUITests";
+			productName = "Unity IphoneUITests";
+			productReference = 6903A0782283791400637919 /* Unity IphoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -211,6 +327,17 @@
 						CreatedOnToolsVersion = 10.2.1;
 						TestTargetID = 69039FF122829B2F00637919;
 					};
+					6903A0532283791000637919 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					6903A06C2283791400637919 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 6903A0532283791000637919;
+					};
+					6903A0772283791400637919 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 6903A0532283791000637919;
+					};
 				};
 			};
 			buildConfigurationList = 69039FED22829B2F00637919 /* Build configuration list for PBXProject "MoveBall" */;
@@ -229,6 +356,9 @@
 				69039FF122829B2F00637919 /* MoveBall */,
 				6903A00B22829B3200637919 /* MoveBallTests */,
 				6903A01622829B3200637919 /* MoveBallUITests */,
+				6903A0532283791000637919 /* Unity Iphone */,
+				6903A06C2283791400637919 /* Unity IphoneTests */,
+				6903A0772283791400637919 /* Unity IphoneUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -254,6 +384,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		6903A01522829B3200637919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6903A0522283791000637919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6903A06B2283791400637919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6903A0762283791400637919 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -289,6 +440,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6903A0502283791000637919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6903A0692283791400637919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6903A0742283791400637919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -301,6 +473,16 @@
 			isa = PBXTargetDependency;
 			target = 69039FF122829B2F00637919 /* MoveBall */;
 			targetProxy = 6903A01822829B3200637919 /* PBXContainerItemProxy */;
+		};
+		6903A06F2283791400637919 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6903A0532283791000637919 /* Unity Iphone */;
+			targetProxy = 6903A06E2283791400637919 /* PBXContainerItemProxy */;
+		};
+		6903A07A2283791400637919 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6903A0532283791000637919 /* Unity Iphone */;
+			targetProxy = 6903A0792283791400637919 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -443,34 +625,57 @@
 		6903A02122829B3200637919 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv7,
+					arm64,
+				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 726K3VFCYW;
 				INFOPLIST_FILE = MoveBall/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/MoveBall",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = VamsiGProductions.MoveBall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7";
+				"VALID_ARCHS[sdk=*]" = "arm64 armv7";
 			};
 			name = Debug;
 		};
 		6903A02222829B3200637919 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv7,
+					arm64,
+				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 726K3VFCYW;
 				INFOPLIST_FILE = MoveBall/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/MoveBall",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = VamsiGProductions.MoveBall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Release;
 		};
@@ -552,6 +757,114 @@
 			};
 			name = Release;
 		};
+		6903A0802283791400637919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Unity Iphone/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "VamsiGProductions.Unity-Iphone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6903A0812283791400637919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Unity Iphone/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "VamsiGProductions.Unity-Iphone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6903A0832283791400637919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Unity IphoneTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "VamsiGProductions.Unity-IphoneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unity Iphone.app/Unity Iphone";
+			};
+			name = Debug;
+		};
+		6903A0842283791400637919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Unity IphoneTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "VamsiGProductions.Unity-IphoneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unity Iphone.app/Unity Iphone";
+			};
+			name = Release;
+		};
+		6903A0862283791400637919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Unity IphoneUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "VamsiGProductions.Unity-IphoneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Unity Iphone";
+			};
+			name = Debug;
+		};
+		6903A0872283791400637919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Unity IphoneUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "VamsiGProductions.Unity-IphoneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Unity Iphone";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -587,6 +900,33 @@
 			buildConfigurations = (
 				6903A02722829B3200637919 /* Debug */,
 				6903A02822829B3200637919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6903A07F2283791400637919 /* Build configuration list for PBXNativeTarget "Unity Iphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6903A0802283791400637919 /* Debug */,
+				6903A0812283791400637919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6903A0822283791400637919 /* Build configuration list for PBXNativeTarget "Unity IphoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6903A0832283791400637919 /* Debug */,
+				6903A0842283791400637919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6903A0852283791400637919 /* Build configuration list for PBXNativeTarget "Unity IphoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6903A0862283791400637919 /* Debug */,
+				6903A0872283791400637919 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
